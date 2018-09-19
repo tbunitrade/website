@@ -129,7 +129,7 @@ gulp.task('browser-sync-server', function (){
         host: "sense.dev",
         port: 8080
     });
-});no
+});
 
 
 /**

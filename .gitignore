@@ -67,3 +67,5 @@ dummy
 node-modules
 *.zip
 *.rar
+text.php
+test

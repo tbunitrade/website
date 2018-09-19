@@ -7,8 +7,8 @@
   * */
 
 ?>
-<?php include_once ('templates/page/home/products.php'); ?>
-<?php include_once ('templates/page/home/ourstory.php'); ?>
+<?php //include_once ('templates/page/home/products.php'); ?>
+<?php //include_once ('templates/page/home/ourstory.php'); ?>
 
 
 

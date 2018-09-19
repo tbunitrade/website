@@ -1,73 +1,60 @@
 /*Header MAIN style*/
-header {
-  display: inline-block;
-  width: 100%;
-  height: 124px;
-
-  padding-top: 68px;
+.header {
+  background-image: url("../img/about.png");
   background-repeat: no-repeat;
-
-  @media (min-width: $screen-md-min) {
-    height: 187px;
-  }
-
-  .logo {
-    background-image: url("../img/logoMenu.png");
-    background-repeat: no-repeat;
-    width: 182px;
-    height: 32px;
-    display: block;
-    margin: auto;
-    background-position: center center;
-  }
-
-  .searchHeader {
-    background-image: url("../img/2x/search@2x.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    width: 30px;
-    height: 30px;
-    background-size: contain;
-  }
-}
-
-/*bottom header*/
-
-.bannerAfterHeader {
-  display: block;
-  width: 100%;
-  //max-width: 1920px;
-  height: 600px;
-  background-position: center;
   background-size: contain;
-  background-repeat: no-repeat;
-}
+  width: 100%;
+  min-height: 640px;
 
-.bannerContact {
-  background-image: url("../img/contactUsSlider.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-}
+  .header-top {
 
-.bannerOurStorySliderVisit {
-  background-image: url("../img/ourStorySlider.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 600px;
-}
+    .menuButton {
+      display: inline-block;
+      vertical-align:top;
+      //background: red;
+      width: 100%;
+      max-width: 30px;
+      min-height: 30px;
 
-.bannerExhibitionsSlider {
-  background-image: url("../img/exhibitionsSlider.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 600px;
-}
+      li {
+        width: 30px;
+        height: 2px;
+        background: $menutopcolor;
+        padding-bottom: 8px;
+        display: inline-block;
+      }
 
-.headerBig {
-  height: 100vh;
-  background-image: url("../img/sliderPhoto.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 600px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+    }
+
+    .logo {
+      background: url("../img/logo.png");
+      background-repeat: no-repeat;
+      width: 175px;
+      height: 40px;
+      background-size: contain;
+      display: inline-block;
+    }
+
+    .menuTop {
+
+      .menu-item {
+        display: inline-block;
+        vertical-align: top;
+
+        a {
+          text-decoration: none;
+          color:$menutopcolor;
+          font-size: 16px;
+          font-family: 'Ubuntu';
+        }
+      }
+    }
+
+  }
+
+
 }

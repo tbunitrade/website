@@ -7,13 +7,13 @@
   * */
 
 //Here we start html templates
-include ('templates/headerBig.php');
+include ('templates/header.php');
 
 //include ('templates/bannerAfterHeader.php');
 //
 //include ('templates/contacts.php');
-include('templates/page/home/index.php');
-include('templates/page/contact/contactus.php');
+//include('templates/page/home/index.php');
+//include('templates/page/contact/contactus.php');
 ?>
 
     <!------- Start homepage view ------>

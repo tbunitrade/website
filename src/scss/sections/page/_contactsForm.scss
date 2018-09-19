@@ -1,0 +1,41 @@
+/*checkoutform template*/
+.contactsForm {
+  min-height: 1376px;
+
+  .contactsMainTitle{
+    margin-top: 0!important;
+    padding-top: 102px;
+    margin-bottom: 37px!important;
+
+    span {
+      text-transform: initial;
+      letter-spacing: 0.8px;
+      line-height: 48px;
+    }
+  }
+
+  .col-md-6 {
+
+    .pText {
+      display: inline-block;
+      color: $contactp;
+      font-family: 'BloggerSans';
+      font-size: 35px;
+      line-height: 36px;
+      margin: auto;
+    }
+
+    .title {
+      font-size: 35px;	line-height: 36px;
+    }
+
+    .title2 {
+      color: $contactp;
+      font-family: 'BloggerSans';
+      font-size: 47px;
+      line-height: 42px;
+    }
+  }
+
+
+}/*end of contactsForm*/

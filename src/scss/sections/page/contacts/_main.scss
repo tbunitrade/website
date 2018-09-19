@@ -1,0 +1,144 @@
+/* for main contacts */
+.contactsMainContainer {
+
+  .contactsMainTitle {
+    font-size: 50px;
+    line-height: 32px;
+    font-family: 'BloggerSans';
+    font-weight:400;
+    text-align: center;
+    text-transform: capitalize;
+    color:$contacttitle;
+    margin-top: 89px;
+    margin-bottom: 89px;
+
+    span {
+      display: block;
+      color:$contacttitle;
+      font-weight:400;
+      font-family: 'BloggerSans';
+      font-size: 25px;
+
+    }
+  }
+
+  .contactsMainUl {
+    width: 100%;
+
+    margin: auto;
+    display: block;
+    background: $contactbgf;
+    height: auto;
+    margin-bottom: 117px;
+
+    @media (min-width: $screen-md-min) {
+      height: 620px;
+    }
+
+
+    .contactsMainLi {
+      display: block;
+      list-style-type: none;
+      vertical-align: top;
+
+      margin: 0 auto;
+      margin-top:90px;
+      padding: 20px 0px;
+
+      @media (min-width: $screen-md-min) {
+        display: inline-block;
+        //margin: 0 5%;
+      }
+
+      img {
+        display: block;
+        margin: auto;
+        margin-bottom: 90px;
+      }
+
+      .contactsMainP {
+        text-align: center;
+        color:$contactp;
+        font-family: 'Helvetica Neue';
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 29px;
+
+        span {
+          color:$contactspan;
+          display: block;
+          text-transform: capitalize;
+          font-size: 35px;
+          font-family: 'BloggerSans';
+          font-weight: 400;
+          line-height: 32px;
+          margin-bottom: 18px;
+          text-transform: capitalize;
+
+        }
+      }
+    }
+  }/*end of ul*/
+
+  .earth {
+    background: url("../img/earthmap.png");
+    width: 100%;
+    max-width: 1255px;
+    height: 644px;
+    margin: auto;
+    display: block;
+
+  }
+
+  /**/
+
+  .officeList {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      min-height: 300px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+
+      country {
+        color: $contactspan;
+        font-family: 'BloggerSans';
+        font-size: 94px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 32px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+      }
+
+      span {
+        text-transform: uppercase;
+        display: block;
+        padding-top: 40px;
+        text-align: left;
+        font-size: 25px;
+        padding: 10px 0px;
+      }
+
+      p {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 25px;
+        padding: 7px 0px ;
+        font-family: 'BloggerSans';
+        color: $contactp;
+        width: 100%;
+        max-width: 250px;
+
+        a {
+          display: inline-block;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}

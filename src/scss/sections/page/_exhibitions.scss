@@ -1,0 +1,96 @@
+/*exhebitions template*/
+.exhibitionsMainContainer {
+
+  .exhibitionsMainTitle {
+    font-size: 50px;
+    line-height: 31px;
+    font-family: 'BloggerSans';
+
+  }
+
+  .calendarContainer{
+    background: $contactbgf;
+    width: 100%;
+    max-width: 1769px;
+    height: 1137px;
+
+    li {
+      width: 100%;
+      max-width: 1255px;
+      display: block;
+      border-bottom: 1px solid $contactspan;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      margin-bottom: 60px;
+      margin: auto;
+
+      .date{
+        display: inline-block;
+        height: 169px;
+        width: 136px;
+        border: 2px solid $menuitem;
+
+        span {
+          display: inline-block;
+          vertical-align: top;
+          height:39px;
+          background: $menuitem;
+          color: $white;
+          line-height: 39px;
+          width: 100%;
+
+        }
+
+
+        em {
+          font-style: normal;
+          display: block;
+          font-family: 'BloggerSans';
+          font-size: 79px;
+          line-height: 121px;
+          height: 121px; ;
+        }
+      }
+
+      .ico {
+        display: inline-block;
+        vertical-align: top;
+        img {
+          display: inline-block;
+          vertical-align: top;
+          padding: 0px 50px;
+        }
+      }
+
+      .description {
+        display: inline-block;
+        height: 169px;
+        width: 234px;
+
+        font-family: 'BloggerSans';
+        text-align: left;
+        line-height: 20px;
+
+        span{
+          display: block;
+          font-size: 35px;
+          line-height: 35px;
+          text-align: left;
+        }
+      }
+
+      .icoEnd {
+        display: inline-block;
+        vertical-align: top;
+        float: right;
+
+        img{
+          display: inline-block;
+          vertical-align: top;
+          padding: 0px 50px;
+        }
+      }
+    }/*end of li*/
+  }
+
+}

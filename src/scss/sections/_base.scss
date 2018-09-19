@@ -1,0 +1,22 @@
+/*for header*/
+@import 'modal';
+
+/*header parts*/
+@import "nav";
+@import "nav-mobile";
+
+/*Templates part*/
+@import 'catalog/catalog';
+/*Templates part*/
+@import 'sidebar/sidebar';
+/*Templates for homepage */
+@import 'page/home/homepage';
+@import 'page/home/story';
+
+@import 'page/ourstory';
+@import 'page/exhibitions';
+@import 'page/checkoutform';
+@import 'page/contactsForm';
+@import 'page/more';
+/*Templates for contacts */
+@import 'page/contacts/main';
